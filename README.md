@@ -5,7 +5,7 @@ I wrote a random number generate in python using time.  This algorithm's run-tim
 
 
 
-  def count_in_time(n):
+    def count_in_time(n):
      import time
      count = 0
      start_time = time.clock()
@@ -16,7 +16,7 @@ I wrote a random number generate in python using time.  This algorithm's run-tim
      return count
   
   
-  def generate_random(time_to_count, range_nums, rand_lst_size):
+    def generate_random(time_to_count, range_nums, rand_lst_size):
       randoms = []
       iterables = range(range_nums)
       count = 0
